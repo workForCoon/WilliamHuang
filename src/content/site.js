@@ -1,5 +1,5 @@
 export const site = {
-  title: "William | PhD Researcher",
-  description: "Personal academic website and research portfolio.",
-  repository: "https://github.com/your-username/william-website"
+  title: "William Hao-Cheng Huang | Applied Statistics Researcher",
+  description: "Research portfolio for William Hao-Cheng Huang.",
+  repository: "https://github.com/workForCoon/WilliamHuang"
 };

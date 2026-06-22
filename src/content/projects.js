@@ -1,43 +1,50 @@
 export const projects = [
   {
-    id: "research-portfolio-system",
-    title: "Research Portfolio System",
-    type: "Technical Project",
-    year: "2026",
-    summary:
-      "A maintainable academic portfolio architecture using structured content modules and renderer components.",
-    image: "",
-    tags: ["Vue", "Design Patterns", "GitHub Pages"],
-    links: {
-      github: "#",
-      demo: "#"
-    }
-  },
-  {
-    id: "ai-study-companion",
-    title: "AI Study Companion",
-    type: "Research Prototype",
+    id: "spectral-identifiability-principle",
+    title: "Spectral Identifiability Principle",
+    type: "Research Program",
     year: "2025",
     summary:
-      "An interactive prototype that helps learners ask better questions, compare evidence, and reflect on their progress.",
+      "A Fisher-spectral framework explaining why retrained networks can remain accurate but produce inconsistent explanations. The work treats explanation drift as a geometric identifiability problem governed by eigengap and finite-sample perturbation.",
     image: "",
-    tags: ["AI", "Education", "HCI"],
+    tags: ["Fisher Geometry", "Eigenspace Stability", "Interpretable Learning"],
     links: {
-      demo: "#",
-      paper: "#"
+      summary: "docs/William_Huang_Research_Summary.pdf"
     }
   },
   {
-    id: "visualization-dashboard",
-    title: "Research Visualization Dashboard",
-    type: "Data Tool",
-    year: "2024",
+    id: "spectral-threshold-perspective",
+    title: "Spectral Thresholds for Dynamic Stability",
+    type: "Research Program",
+    year: "2025",
     summary:
-      "A dashboard for exploring experiment logs, user behavior traces, and model outputs during iterative research.",
+      "A threshold view of learning stability where Fisher curvature defines when optimization remains stable under noise, when local minima become indistinguishable, and how regularization can lift the Fisher spectrum.",
     image: "",
-    tags: ["Data Visualization", "Dashboard"],
+    tags: ["Optimization Stability", "Finite-Sample Theory", "Fisher Curvature"],
     links: {
-      github: "#"
+      summary: "docs/William_Huang_Research_Summary.pdf"
     }
+  },
+  {
+    id: "healthcare-bayesian-modeling",
+    title: "Hierarchical Bayesian Rare-Event Modeling",
+    type: "Applied Research",
+    year: "2020",
+    summary:
+      "A hospital-level Bayesian modeling framework for rare-event estimation under urban-rural heterogeneity, achieving AUC 0.95 and supporting interventions benefiting about 1,600 patients annually.",
+    image: "",
+    tags: ["Bayesian Inference", "Healthcare", "Uncertainty Quantification"],
+    links: {}
+  },
+  {
+    id: "industrial-counterfactual-model",
+    title: "Industrial Counterfactual Modeling at TSMC",
+    type: "Applied Research",
+    year: "2022-2025",
+    summary:
+      "A likelihood and counterfactual modeling workflow for heterogeneous industrial conditions that reduced Type-I error from 7% to 3% and avoided about USD 100K weekly loss.",
+    image: "",
+    tags: ["Counterfactual Modeling", "Likelihood Methods", "Industrial Statistics"],
+    links: {}
   }
 ];

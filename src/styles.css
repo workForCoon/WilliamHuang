@@ -68,68 +68,20 @@ a {
 }
 
 .nav-menu {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   gap: 14px;
 }
 
-.nav-menu-label {
-  display: inline-flex;
-  min-height: 34px;
-  align-items: center;
-  appearance: none;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  padding: 6px 12px;
-  color: var(--accent-dark);
-  background: var(--surface);
-  cursor: pointer;
-  font: inherit;
-  font-size: 0.82rem;
-  font-weight: 900;
-}
-
-.nav-menu-label:focus-visible {
-  outline: 3px solid rgba(15, 118, 110, 0.22);
-  outline-offset: 3px;
-}
-
 .nav-links {
-  position: absolute;
-  top: calc(100% + 10px);
-  right: 0;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 8px 18px;
-  width: max-content;
-  max-width: min(620px, calc(100vw - 40px));
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 12px 14px;
-  background: var(--surface);
-  box-shadow: var(--shadow);
+  gap: 8px 22px;
   color: var(--muted);
   font-size: 0.92rem;
   font-weight: 700;
-  opacity: 0;
-  overflow: hidden;
-  pointer-events: none;
-  transform: translateY(-6px);
-  transition:
-    opacity 180ms ease,
-    transform 180ms ease;
-  white-space: nowrap;
-  visibility: hidden;
-}
-
-.nav-menu.is-open .nav-links {
-  opacity: 1;
-  pointer-events: auto;
-  transform: translateY(0);
-  visibility: visible;
 }
 
 .nav-links a:hover {
@@ -623,19 +575,7 @@ p {
   }
 
   .nav-links {
-    position: static;
     justify-content: flex-start;
-    width: auto;
-    max-width: none;
-    border: 0;
-    padding: 0;
-    background: transparent;
-    box-shadow: none;
-    opacity: 1;
-    pointer-events: auto;
-    transform: none;
-    visibility: visible;
-    white-space: normal;
   }
 
   .section-shell {

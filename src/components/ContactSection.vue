@@ -3,10 +3,8 @@ import { links, profile } from "../content";
 
 const contactLinks = [
   { label: "Email", href: links.email },
-  { label: "GitHub", href: links.github },
-  { label: "Google Scholar", href: links.scholar },
-  { label: "LinkedIn", href: links.linkedin },
-  { label: "ORCID", href: links.orcid }
+  { label: "CV", href: links.cv },
+  { label: "Research Summary", href: links.researchSummary }
 ];
 </script>
 

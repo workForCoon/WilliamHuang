@@ -1,29 +1,32 @@
 export const profile = {
-  name: "William Chen",
+  name: "William Hao-Cheng Huang",
   shortName: "William",
-  title: "PhD Candidate",
-  field: "Artificial Intelligence, Human-Computer Interaction, and Learning Systems",
-  location: "Taipei, Taiwan",
-  email: "your.email@example.com",
+  title: "Applied Statistics Researcher",
+  field: "Spectral identifiability, statistical learning theory, optimization stability, and reliable interpretable learning",
+  location: "Taiwan",
+  email: "williamhuang0709@gmail.com",
   avatar: "",
   headline:
-    "I design and study intelligent systems that help people learn, reason, and create with data.",
+    "I study when high-dimensional learning systems become identifiable, stable, and reproducible through Fisher-spectral geometry.",
   bio: [
-    "I am a PhD researcher working at the intersection of artificial intelligence, human-computer interaction, and data-driven learning technologies.",
-    "My research explores how interactive systems can make complex information more understandable, actionable, and useful in real-world contexts."
+    "William Hao-Cheng Huang is an applied statistics researcher with training from UC Berkeley and National Chiao Tung University, and applied research experience at TSMC, the National Center for Theoretical Sciences, and the University of Tokyo.",
+    "His work connects geometry, statistics, and optimization in learning systems, with a focus on spectral identifiability, Fisher curvature, finite-sample stability thresholds, and reproducible model interpretation."
   ],
   researchInterests: [
-    "Human-AI Interaction",
-    "Learning Analytics",
-    "Data Visualization",
-    "Intelligent User Interfaces",
-    "Research Tooling"
+    "Statistical Learning Theory and Identifiability",
+    "Optimization Stability and Dynamics",
+    "Reliable and Interpretable Learning",
+    "Fisher-Spectral Geometry",
+    "High-Dimensional Inference"
   ],
   methods: [
-    "Mixed-methods research",
-    "Prototype-driven evaluation",
-    "Machine learning systems",
-    "User experience research"
+    "Probabilistic modeling",
+    "Spectral analysis",
+    "Optimization",
+    "Numerical inference",
+    "Bayesian inference",
+    "High-performance computing"
   ],
-  cvUrl: "#contact"
+  cvUrl: "docs/William_Huang_CV.pdf",
+  researchSummaryUrl: "docs/William_Huang_Research_Summary.pdf"
 };

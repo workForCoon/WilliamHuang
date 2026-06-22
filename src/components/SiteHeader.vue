@@ -1,5 +1,4 @@
 <script setup>
-import { ref } from "vue";
 import { profile } from "../content";
 
 defineProps({
@@ -9,7 +8,6 @@ defineProps({
   }
 });
 
-const menuOpen = ref(false);
 </script>
 
 <template>
@@ -18,24 +16,8 @@ const menuOpen = ref(false);
       <span class="brand-mark">{{ profile.shortName.slice(0, 1) }}</span>
       <span>{{ profile.shortName }}</span>
     </a>
-    <div
-      class="nav-menu"
-      :class="{ 'is-open': menuOpen }"
-      @mouseenter="menuOpen = true"
-      @mouseleave="menuOpen = false"
-      @focusin="menuOpen = true"
-      @focusout="menuOpen = false"
-    >
-      <button
-        class="nav-menu-label"
-        type="button"
-        :aria-expanded="menuOpen"
-        aria-controls="section-navigation"
-        @click="menuOpen = true"
-      >
-        Sections
-      </button>
-      <nav id="section-navigation" class="nav-links" aria-label="Primary navigation">
+    <div class="nav-menu">
+      <nav class="nav-links" aria-label="Primary navigation">
         <a v-for="section in sections" :key="section.id" :href="`#${section.id}`">
           {{ section.label }}
         </a>

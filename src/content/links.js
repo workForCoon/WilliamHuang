@@ -1,7 +1,5 @@
 export const links = {
-  email: "mailto:your.email@example.com",
-  github: "https://github.com/your-username",
-  scholar: "https://scholar.google.com",
-  linkedin: "https://linkedin.com/in/your-profile",
-  orcid: "https://orcid.org/0000-0000-0000-0000"
+  email: "mailto:williamhuang0709@gmail.com",
+  cv: "docs/William_Huang_CV.pdf",
+  researchSummary: "docs/William_Huang_Research_Summary.pdf"
 };

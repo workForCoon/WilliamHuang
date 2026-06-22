@@ -21,9 +21,8 @@ import { links, profile } from "../content";
       <p class="hero-headline">{{ profile.headline }}</p>
       <div class="hero-actions" aria-label="Profile links">
         <a class="button primary" :href="links.email">Email</a>
-        <a class="button secondary" :href="links.github" target="_blank" rel="noreferrer">GitHub</a>
-        <a class="button secondary" :href="links.scholar" target="_blank" rel="noreferrer">Scholar</a>
         <a class="button secondary" :href="profile.cvUrl">CV</a>
+        <a class="button secondary" :href="profile.researchSummaryUrl">Research Summary</a>
       </div>
     </div>
     <div class="hero-card" aria-label="Research summary">
@@ -34,11 +33,11 @@ import { links, profile } from "../content";
         </div>
         <div>
           <dt>Focus</dt>
-          <dd>Human-centered intelligent systems</dd>
+          <dd>Spectral identifiability and reliable learning</dd>
         </div>
         <div>
           <dt>Method</dt>
-          <dd>Systems, studies, and visual analysis</dd>
+          <dd>Statistics, optimization, and numerical inference</dd>
         </div>
       </dl>
     </div>
