@@ -10,8 +10,18 @@ import TimelineRenderer from "./TimelineRenderer.vue";
       <h2>Academic path and selected work</h2>
     </div>
     <div class="experience-layout">
-      <TimelineRenderer title="Education" :items="education" variant="education" />
-      <TimelineRenderer title="Research and work" :items="experiences" variant="experience" />
+      <TimelineRenderer
+        class="education-timeline"
+        title="Education"
+        :items="education"
+        variant="education"
+      />
+      <TimelineRenderer
+        class="work-timeline"
+        title="Research, leadership, and service"
+        :items="experiences"
+        variant="experience"
+      />
     </div>
     <div class="awards-band">
       <h3>Awards and honors</h3>
