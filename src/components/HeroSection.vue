@@ -8,14 +8,6 @@ import { links, profile } from "../content";
       <p class="section-kicker">{{ profile.title }}</p>
       <div class="hero-title-row">
         <h1>{{ profile.name }}</h1>
-        <div class="portrait-placeholder hero-portrait">
-          <img
-            v-if="profile.avatar"
-            :src="profile.avatar"
-            :alt="`${profile.name} profile photo`"
-          />
-          <span v-else>{{ profile.shortName.slice(0, 1) }}</span>
-        </div>
       </div>
       <p class="hero-field">{{ profile.field }}</p>
       <p class="hero-headline">{{ profile.headline }}</p>
@@ -25,7 +17,15 @@ import { links, profile } from "../content";
         <a class="button secondary" :href="profile.researchSummaryUrl">Research Summary</a>
       </div>
     </div>
-    <div class="hero-card" aria-label="Research summary">
+    <div class="hero-card" aria-label="Profile and research summary">
+      <div class="portrait-placeholder hero-portrait">
+        <img
+          v-if="profile.avatar"
+          :src="profile.avatar"
+          :alt="`${profile.name} profile photo`"
+        />
+        <span v-else>{{ profile.shortName.slice(0, 1) }}</span>
+      </div>
       <dl>
         <div>
           <dt>Location</dt>

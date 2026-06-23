@@ -5,7 +5,7 @@ export const profile = {
   field: "Spectral identifiability, statistical learning theory, optimization stability, and reliable interpretable learning",
   location: "Taiwan",
   email: "williamhuang0709@gmail.com",
-  avatar: "",
+  avatar: "images/profilePhoto.jpg",
   headline:
     "I study when high-dimensional learning systems become identifiable, stable, and reproducible through Fisher-spectral geometry.",
   bio: [
